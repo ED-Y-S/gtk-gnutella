@@ -1,0 +1,8 @@
+nm: /usr/bin/gtk-gnutella: no symbols
+23-07-18 21:43:33.994 (WARNING): no symbols loaded, trying with pre-computed "/usr/lib/x86_64-linux-gnu/gtk-gnutella/gtk-gnutella.nm"
+23-07-18 17:43:34.018 (WARNING): file "/usr/lib/x86_64-linux-gnu/gtk-gnutella/gtk-gnutella.nm" not holding symbols for "/usr/bin/gtk-gnutella"
+Never ever run gtk-gnutella as root! You may use:
+
+    su - username -c 'gtk-gnutella --daemonize'
+
+where 'username' stands for a regular user name.
